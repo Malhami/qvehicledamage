@@ -280,9 +280,13 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Configure Azure OpenAI client
-AZURE_OPENAI_ENDPOINT = config.endpoint
-AZURE_OPENAI_DEPLOYMENT_NAME = config.deployment
-AZURE_OPENAI_KEY = config.subscription_key
+# AZURE_OPENAI_ENDPOINT = config.endpoint
+# AZURE_OPENAI_DEPLOYMENT_NAME = config.deployment
+# AZURE_OPENAI_KEY = config.subscription_key
+
+AZURE_OPENAI_ENDPOINT = os.environ.get("AZURE_OPENAI_ENDPOINT")
+AZURE_OPENAI_DEPLOYMENT_NAME = os.environ.get("AZURE_OPENAI_DEPLOYMENT_NAME")
+AZURE_OPENAI_KEY = os.environ.get("AZURE_OPENAI_KEY")
 
 if not AZURE_OPENAI_KEY:
     st.error("Azure OpenAI API key not found in environment variables. Please set AZURE_OPENAI_KEY.")
