@@ -1,1 +1,7 @@
-libgl1-mesa-glx
+#!/bin/bash
+
+# Install libGL dependency (for OpenCV)
+apt-get update && apt-get install -y libgl1-mesa-glx
+
+# Run your Streamlit app
+streamlit run vehicledamage2.py --server.port=$PORT --server.address=0.0.0.0
