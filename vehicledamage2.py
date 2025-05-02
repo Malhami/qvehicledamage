@@ -12,6 +12,8 @@ import config
 import os
 import hashlib
 from datetime import datetime
+from dotenv import load_dotenv
+
 
 # Set page configuration
 st.set_page_config(
@@ -283,6 +285,9 @@ st.markdown("""
 # AZURE_OPENAI_ENDPOINT = config.endpoint
 # AZURE_OPENAI_DEPLOYMENT_NAME = config.deployment
 # AZURE_OPENAI_KEY = config.subscription_key
+
+# Load environment variables
+load_dotenv()
 
 AZURE_OPENAI_ENDPOINT = os.environ.get("AZURE_OPENAI_ENDPOINT")
 AZURE_OPENAI_DEPLOYMENT_NAME = os.environ.get("AZURE_OPENAI_DEPLOYMENT_NAME")
