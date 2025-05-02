@@ -55,4 +55,4 @@ azure-identity
 dotenv
 azure-core>=1.26.0 
 python-dotenv>=1.0.0
-opencv-python-headless>=4.6.0.66
+opencv-python-headless==4.5.5.64
