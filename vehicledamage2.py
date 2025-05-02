@@ -288,7 +288,7 @@ st.markdown("""
 
 # Load environment variables
 load_dotenv()
-
+ 
 AZURE_OPENAI_ENDPOINT = os.environ.get("AZURE_OPENAI_ENDPOINT")
 AZURE_OPENAI_DEPLOYMENT_NAME = os.environ.get("AZURE_OPENAI_DEPLOYMENT_NAME")
 AZURE_OPENAI_KEY = os.environ.get("AZURE_OPENAI_KEY")
