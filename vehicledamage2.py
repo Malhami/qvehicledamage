@@ -490,7 +490,7 @@ def analyze_image(image_bytes, additional_instructions=""):
     prompt = """Analyze the damage and identify the different damage types. Mention the car type at the beginning of the analysis if you're sure about identifying it.
     
     Estimate if the image is fraudulent or not, and present the results in a well-formatted way.
-    Do a fix cost estimation if possible, assuming this is for a Netherlands-based insurance company.
+    Do a fix cost estimation if possible, assuming this is for a Qatar-based insurance company.
     
     Be very specific about:
     1. Type of damage (dent, scratch, broken parts, etc.)
