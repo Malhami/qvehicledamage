@@ -8,7 +8,6 @@ from PIL import Image
 import json
 import pandas as pd
 import plotly.express as px
-import config
 import os
 import hashlib
 from datetime import datetime
