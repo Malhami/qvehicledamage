@@ -53,6 +53,6 @@ urllib3==2.4.0
 watchdog==6.0.0
 azure-identity
 dotenv
-azure-core>=1.26. 
+azure-core>=1.26.0 
 python-dotenv>=1.0.0
 opencv-python-headless>=4.6.0.66
