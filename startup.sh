@@ -1,2 +1,2 @@
 #!/bin/bash
-streamlit run vehicledamage2.py --server.port 8000 --server.address 0.0.0.0
+streamlit run vehicledamage2.py --server.port 8501 --server.address 0.0.0.0
