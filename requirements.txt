@@ -24,7 +24,6 @@ narwhals==1.37.1
 numpy==2.2.5
 openai==1.76.2
 opencv-python==4.11.0.86
-opencv-python-headless
 packaging==24.2
 pandas==2.2.3
 pillow==11.2.1
@@ -54,3 +53,8 @@ urllib3==2.4.0
 watchdog==6.0.0
 azure-identity
 dotenv
+ 
+azure-core>=1.26. 
+python-dotenv>=1.0.0
+ 
+opencv-python-headless>=4.6.0.66
