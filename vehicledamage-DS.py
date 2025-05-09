@@ -817,10 +817,6 @@ def main():
                         2. Assess the sequence of events
                         3. Highlight any evidence supporting your fault determination
                         4. Note any inconsistencies or suspicious patterns that may require further investigation
-                        5. Make sure you are using the Qatari traffic laws and regulations as a reference for your analysis.
-                        6- Detect the vehicle plate number in case it existed in the image or video.
-                        7- Identify the vehicle make and model if possible.
-                        8- Identify if the didected vehicle plate number is equivelant to what the user provided in the input: {vehicle_id}.
 
                         Provide a detailed explanation of your reasoning. Make sure to follow the Qatari traffic laws and regulations."""
                         for i, data in enumerate(vehicle_analyses):
